@@ -1,0 +1,11 @@
+# Diretivas para mecanismos de busca do site Dielson Rocha
+# https://www.dielsonrocha.com.br/
+
+User-agent: *
+Allow: /
+
+# Evita indexação de rotas técnicas ou inexistentes, caso sejam adicionadas no futuro.
+Disallow: /404
+
+# Sitemap oficial do site.
+Sitemap: https://www.dielsonrocha.com.br/sitemap.xml
